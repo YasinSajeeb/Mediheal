@@ -5,7 +5,7 @@
       "name": "Treadmill",
       "seller": "Sajeeb Gym House",
       "time": 100,
-      "img": "https://asset.cloudinary.com/dwhxbt2gs/321a25c2859b1f65a97f6488fd262818",
+      "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664553727/treadmill-testing-0438-1585840395.jpg_y5j7at.jpg",
       "shipping": 1,
       "quantity": 0
     },
@@ -15,7 +15,7 @@
       "name": "Dumbell",
       "seller": "Sajeeb Gym House",
       "time": 80,
-      "img": "https://asset.cloudinary.com/dwhxbt2gs/87ff69791a35ff1c39f655cc9ecc3feb",
+      "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554159/images_zolbwi.jpg",
       "shipping": 1,
       "quantity": 0
     },
@@ -25,7 +25,7 @@
       "name": "Sit up bench",
       "seller": "Sajeeb Gym House",
       "time": 90,
-      "img": "https://asset.cloudinary.com/dwhxbt2gs/ca50c3f288b49ff607f9033612391359",
+      "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554330/Rogue-AB-3-Adjustable-Bench-5_bhaigz.jpg",
       "shipping": 1,
       "quantity": 0
     },
@@ -35,7 +35,7 @@
       "name": "Dipping bar",
       "seller": "Sajeeb Gym House",
       "time": 45,
-      "img": "https://asset.cloudinary.com/dwhxbt2gs/68b51cb3fb1dd4a8e6b4f91d8ab825d3",
+      "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554526/y2xo1e7cagcburtecazj.jpg",
       "shipping": 1,
       "quantity": 0
     },
@@ -45,7 +45,7 @@
       "name": "Leg Pressing",
       "seller": "Sajeeb Gym House",
       "time": 110,
-      "img": "https://asset.cloudinary.com/dwhxbt2gs/0c4eeb95a9ce31bb3cce547ab179869b",
+      "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554668/Animal-Leg-Press-2_o5rkjf.jpg",
       "shipping": 1,
       "quantity": 0
     },
@@ -55,7 +55,7 @@
       "name": "Skipping",
       "seller": "Sajeeb Gym House",
       "time": 60,
-      "img": "https://asset.cloudinary.com/dwhxbt2gs/108c2aae0385a6a8c63f068f00916e25",
+      "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554901/xpeed_velocity_skipping_rope_model_1_nuho4b_nhteoy.jpg",
       "shipping": 1,
       "quantity": 0
     },
@@ -65,7 +65,7 @@
       "name": "Hand Exercise",
       "seller": "Sajeeb Gym House",
       "time": 100,
-      "img": "https://asset.cloudinary.com/dwhxbt2gs/5d679a48810f4bced7cb8d626e6943b2",
+      "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664555005/how-to-use-the-hammer-strength-chest-press_niqgto.jpg",
       "shipping": 1,
       "quantity": 0
     }
