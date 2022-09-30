@@ -13,7 +13,7 @@ const Exercises = () => {
 
     return (
             <div className="row">
-                <div className="col-md-9 bg-success">
+                <div className="col-md-9">
                   <h5 className='mt-5'>Select Your Exercises to maintain your sound health</h5>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     {

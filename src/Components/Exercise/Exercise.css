@@ -1,3 +1,14 @@
 .exercise img{
-    height: 250px;
+    height: 200px;
+}
+.exercise p{
+    font-size: 15px;
+}
+.exercise button{
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.exercise button:hover{
+    background-color: red !important;
 }
