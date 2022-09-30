@@ -1,0 +1,72 @@
+[
+    {
+      "id": "A1001",
+      "category": "Exercise Equipment",
+      "name": "Treadmill",
+      "seller": "Sajeeb Gym House",
+      "time": 100,
+      "img": "https://asset.cloudinary.com/dwhxbt2gs/321a25c2859b1f65a97f6488fd262818",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": "A1002",
+      "category": "Exercise Equipment",
+      "name": "Dumbell",
+      "seller": "Sajeeb Gym House",
+      "time": 80,
+      "img": "https://asset.cloudinary.com/dwhxbt2gs/87ff69791a35ff1c39f655cc9ecc3feb",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": "A1003",
+      "category": "Exercise Equipment",
+      "name": "Sit up bench",
+      "seller": "Sajeeb Gym House",
+      "time": 90,
+      "img": "https://asset.cloudinary.com/dwhxbt2gs/ca50c3f288b49ff607f9033612391359",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": "A1004",
+      "category": "Exercise Equipment",
+      "name": "Dipping bar",
+      "seller": "Sajeeb Gym House",
+      "time": 45,
+      "img": "https://asset.cloudinary.com/dwhxbt2gs/68b51cb3fb1dd4a8e6b4f91d8ab825d3",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": "A1005",
+      "category": "Exercise Equipment",
+      "name": "Leg Pressing",
+      "seller": "Sajeeb Gym House",
+      "time": 110,
+      "img": "https://asset.cloudinary.com/dwhxbt2gs/0c4eeb95a9ce31bb3cce547ab179869b",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": "A1006",
+      "category": "Exercise Equipment",
+      "name": "Skipping",
+      "seller": "Sajeeb Gym House",
+      "time": 60,
+      "img": "https://asset.cloudinary.com/dwhxbt2gs/108c2aae0385a6a8c63f068f00916e25",
+      "shipping": 1,
+      "quantity": 0
+    },
+    {
+      "id": "A1007",
+      "category": "Exercise Equipment",
+      "name": "Hand Exercise",
+      "seller": "Sajeeb Gym House",
+      "time": 100,
+      "img": "https://asset.cloudinary.com/dwhxbt2gs/5d679a48810f4bced7cb8d626e6943b2",
+      "shipping": 1,
+      "quantity": 0
+    }
+  ]
