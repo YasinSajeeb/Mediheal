@@ -6,7 +6,7 @@ const Header = () => {
         <div className='header'>
             <nav class="navbar bg-light">
   <div class="container">
-    <a className='navbar-brand' href='#'> <i class="fa-solid fa-house-medical text-primary"></i> <strong className='text-primary'>Heal</strong>Medi</a>
+    <a className='navbar-brand' href='#'> <i class="fa-solid fa-house-medical text-primary"></i> Medi<strong className='text-primary'>Heal</strong></a>
   </div>
 </nav>
         </div>
