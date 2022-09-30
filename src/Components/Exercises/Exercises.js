@@ -25,7 +25,7 @@ const Exercises = () => {
                 </div>
                     <Accordion></Accordion>
                 </div>
-                <div className="col-md-3 bg-primary">
+                <div className="col-md-3">
                     <h3>Mello</h3>
                 </div>
             </div>
