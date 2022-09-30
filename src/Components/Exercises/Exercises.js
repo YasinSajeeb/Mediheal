@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Exercise from '../Exercise/Exercise';
 import Accordion from './Accordion/Accordion';
 
 const Exercises = () => {
@@ -16,7 +17,10 @@ const Exercises = () => {
                   <h5 className='mt-5'>Select Your Exercises to maintain your sound health</h5>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     {
-                        exercises.map(exercise => console.log(exercise))
+                        exercises.map(exercise => <Exercise
+                        key={exercise.id}
+                        exercise={exercise}
+                        ></Exercise>)
                     }
                 </div>
                     <Accordion></Accordion>
