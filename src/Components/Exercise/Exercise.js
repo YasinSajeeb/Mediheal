@@ -1,15 +1,15 @@
 import React from 'react';
-
+import './Exercise.css'
 const Exercise = (props) => {
-  const {name, img, time, seller} = props.exercise;
+  const {name, description, img, time, seller} = props.exercise;
     return (
         <div>
             <div className="col">
-              <div className="card h-100">
+              <div className="card h-100 exercise">
       <img src={img} className="card-img-top" alt=""/>
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">{name}</h5>
+        <p className="card-text">{description}</p>
       </div>
     </div>
   </div>
