@@ -1,7 +1,7 @@
-.total-exercises{
+.list-calculation{
     background-color: rgba(159, 233, 238, 0.847);
 }
-.total-exercises button{
+.list-calculation button{
     border: none;
     color: black;
     padding: 8px 10px;
@@ -9,7 +9,13 @@
     border-radius: 50%;
     background-color: #ffffff;
 }
-.total-exercises button:hover{
+.list-calculation button:hover{
     color: white;
     background-color: blueviolet;
+}
+.toast-button{
+    border: none;
+}
+.toast-button:hover{
+    background-color: red!important;
 }
