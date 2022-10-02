@@ -6,7 +6,7 @@ const Exercise = ({exercise, handleAddToList}) => {
         <div>
             <div className="col">
               <div className="card h-100 exercise">
-                <div className='p-3'><img src={img} className="card-img-top" alt=""/></div>
+                <div className='p-2'><img src={img} className="card-img-top" alt=""/></div>
       
       <div className="card-body">
         <h5 className="card-title">{name}</h5>

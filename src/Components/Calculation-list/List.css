@@ -1,0 +1,15 @@
+.total-exercises{
+    background-color: rgba(159, 233, 238, 0.847);
+}
+.total-exercises button{
+    border: none;
+    color: black;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.total-exercises button:hover{
+    color: white;
+    background-color: blueviolet;
+}
