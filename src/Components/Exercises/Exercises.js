@@ -19,6 +19,7 @@ const Exercises = () => {
         const newList = [...list, exercise]
         setList(newList);
     }
+    
     return (
             <div className="row">
                 <div className="col-md-9 ps-4">
@@ -35,7 +36,8 @@ const Exercises = () => {
                     <Accordion></Accordion>
                 </div>
                 <div className="col-md-2 col-lg-3 pt-5 ps-2">
-                    <List list={list}></List>
+                    <List list={list}
+                    ></List>
                 </div>
             </div>
         

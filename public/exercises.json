@@ -5,7 +5,7 @@
       "name": "Treadmill",
       "seller": "Sajeeb Gym House",
       "time": 100,
-      "description": "Treadmill removes pain from body",
+      "description": "Treadmill removes pain from body, strengthens your leg muscles.",
       "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664553727/treadmill-testing-0438-1585840395.jpg_y5j7at.jpg",
       "shipping": 1,
       "quantity": 0
@@ -16,7 +16,7 @@
       "name": "Dumbell",
       "seller": "Sajeeb Gym House",
       "time": 80,
-      "description": "Dumbell muscles your muscle. Keeps your body fit.",
+      "description": "Dumbell muscles your muscle, makes strong and keeps your body fit.",
       "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554159/images_zolbwi.jpg",
       "shipping": 1,
       "quantity": 0
@@ -38,7 +38,7 @@
       "name": "Dipping bar",
       "seller": "Sajeeb Gym House",
       "time": 45,
-      "description": "Dipping bar strenghthens your body",
+      "description": "Dipping bar strengthens your body and also increases your muscles.",
       "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554526/y2xo1e7cagcburtecazj.jpg",
       "shipping": 1,
       "quantity": 0
@@ -49,7 +49,7 @@
       "name": "Leg Pressing",
       "seller": "Sajeeb Gym House",
       "time": 110,
-      "description": "Leg pressing keeps your legs fit healthy.",
+      "description": "Leg pressing increases your leg muscles and fit healthy.",
       "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664554668/Animal-Leg-Press-2_o5rkjf.jpg",
       "shipping": 1,
       "quantity": 0
@@ -71,7 +71,7 @@
       "name": "Hand Exercise",
       "seller": "Sajeeb Gym House",
       "time": 100,
-      "description":"Hand Exercise muscles your hand and lenghthens your lungs. Keeps your body fit and strong",
+      "description":"Hand Exercise muscles your hand and lengthens your lungs.",
       "img": "https://res.cloudinary.com/dwhxbt2gs/image/upload/v1664555005/how-to-use-the-hammer-strength-chest-press_niqgto.jpg",
       "shipping": 1,
       "quantity": 0

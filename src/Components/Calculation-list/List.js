@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import './List.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './List.css';
+
+// toast.configure()
 const List = ({list}) => {
     let total = 0;
     for(const exercise of list){
@@ -13,13 +17,31 @@ const List = ({list}) => {
 
     let fullTotal = [];
     fullTotal = total+ JSON.parse(breakTime) ;
+
+    const notify = () => toast("Well-done! Stay Safe 😷");
+
    
-    
-    // const fullTotal = total + breakTime;
     return (
         <div className='sticky-top'>
-            <h3>Exercise Details</h3>
-                    <p>Selected Exercises: {list.length}</p>
+            <div>
+            <h5> Yasin Al Hussain</h5>
+            <span className='text-muted'><i class="fa-solid fa-location-dot me-2"></i>Dhaka, Bangladesh</span>
+            </div>
+            <div className='list-calculation p-2 d-flex justify-content-evenly rounded'>
+                <div className='bg-white rounded-circle w-25 text-center'>
+                    <h5>55<small className='text-muted'>kg</small></h5>
+                    <span>Weight</span>
+                </div>
+                <div className='bg-white rounded-circle w-25 text-center'>
+                    <h5>5.2</h5>
+                    <span>Height</span>
+                </div>
+                <div className='bg-white rounded-circle w-25 text-center'>
+                <h5>24<small  className='text-muted'>yrs</small></h5>
+                <span>Age</span>
+                </div>
+            </div>
+                    <p className='mt-4'>Selected Exercises: {list.length}</p>
                     <h6>Add A Break</h6>
                     <div className='list-calculation p-2 d-flex justify-content-evenly rounded'>
                         <button onClick={()=>addBreakTime(30)}>30s</button>
@@ -42,8 +64,9 @@ const List = ({list}) => {
                         <h6>Total Time:</h6>
                         <p>{fullTotal} seconds</p>
                     </div>
-                    <div className='text-center'><button className='toast-button text-white bg-primary px-4 py-2 rounded'>Activity Completed</button></div>
-                    {/* <button className='toast-button text-white bg-primary px-4 py-2 rounded'>Activity Completed</button> */}
+                    <div className='text-center'>
+                        <button onClick={notify} className='toast-button text-white bg-primary px-4 py-2 rounded'>Activity Completed</button></div>
+                    <ToastContainer />
         </div>
     );
 };
