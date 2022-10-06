@@ -12,19 +12,19 @@ const Exercises = () => {
         fetch('exercises.json')
         .then(res => res.json())
         .then(data => setExercises(data))
-    }, [])
+    }, []);
+
+   
     
     const handleAddToList = (exercise) => {
-        // console.log(exercise);
-        const newList = [...list, exercise]
+        let newList = [...list, exercise];
         setList(newList);
     }
-    
     return (
-            <div className="row">
+            <div className="row body-container">
                 <div className="col-md-9 ps-4">
                   <h5 className='mt-5'>Select Your Exercises to maintain your sound health</h5>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     {
                         exercises.map(exercise => <Exercise
                         key={exercise.id}
@@ -35,7 +35,7 @@ const Exercises = () => {
                 </div>
                     <Accordion></Accordion>
                 </div>
-                <div className="col-md-2 col-lg-3 pt-5 ps-2">
+                <div className="col-md-3 pt-5 ps-2">
                     <List list={list}
                     ></List>
                 </div>

@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import { click } from '@testing-library/user-event/dist/click';
+import React, { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { addToDb, getStoredBreakTime } from '../../Utilities/fakedb';
 import './List.css';
 
 // toast.configure()
@@ -11,8 +13,24 @@ const List = ({list}) => {
     }
    
     const [breakTime, setBreakTime] = useState([0]);
+    const [breakTimeList, setBreakTimeList] = useState([]);
+
+    useEffect(()=>{
+        const storedBreakTime = getStoredBreakTime();
+        const savedBreakTime = [];
+        for(const clickedTime in storedBreakTime){
+            
+            const addedBreakTime = breakTimeList.find( breakTime => breakTimeList.breakTime === clickedTime);
+            if(addBreakTime){
+                savedBreakTime.push(addedBreakTime);
+            }
+        }
+        setBreakTimeList(savedBreakTime)
+    }, [breakTimeList]);
     const addBreakTime = (clickedTime)=>{
         setBreakTime(clickedTime);
+        
+        addToDb(clickedTime);
     }
 
     let fullTotal = [];
@@ -22,13 +40,13 @@ const List = ({list}) => {
 
    
     return (
-        <div className='sticky-top'>
+        <div className='sticky-top list-container'>
             <div>
             <h5> Yasin Al Hussain</h5>
             <span className='text-muted'><i class="fa-solid fa-location-dot me-2"></i>Dhaka, Bangladesh</span>
             </div>
             <div className='list-calculation p-2 d-flex justify-content-evenly rounded'>
-                <div className='bg-white rounded-circle w-25 text-center'>
+                <div className='list-item bg-white rounded-circle w-25 text-center'>
                     <h5>55<small className='text-muted'>kg</small></h5>
                     <span>Weight</span>
                 </div>
